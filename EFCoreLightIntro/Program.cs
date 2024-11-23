@@ -6,7 +6,8 @@ namespace EFCoreLightIntro
     {
         static void Main(string[] args)
         {
-            using (var dbContext = new ApplicationDbContext())
+            //connets to database
+            using (var dbContext = new ApplicationDbContext()) //'dbcontect = database
             {
                 // CREATE CREATE CREATE CREATE CREATE CREATE
                 // CREATE CREATE CREATE CREATE CREATE CREATE
